@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <!-- SEO & Meta -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Portfolio — Quentin VIEVARD | Développeur Web & Logiciel</title>
+    <meta name="description"
+        content="Portfolio de Quentin VIEVARD — Développeur Web & Logiciel spécialisé Symfony, PHP, Java. Découvrez mes projets et compétences.">
+    <meta name="keywords"
+        content="Quentin VIEVARD, portfolio, développeur web, Symfony, PHP, Java, Vue.js, projets, compétences">
+    <meta name="author" content="VIEVARD Quentin">
+    <link rel="canonical" href="https://vievard-quentin.github.io/portfolio/">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="VIEVARD Quentin - Portfolio Développeur">
+    <meta property="og:description"
+        content="Développeur Web & Logiciel | Symfony, PHP, Java — Découvrez mes projets et compétences." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="images/IMG20250827121043.jpg" />
+    <meta property="og:url" content="https://vievard-quentin.github.io/portfolio/" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="VIEVARD Quentin - Portfolio Développeur">
+    <meta name="twitter:description" content="Développeur Web & Logiciel — Symfony, PHP, Java">
+    <meta name="twitter:image" content="images/IMG20250827121043.jpg">
+
+    <!-- Fonts & Style -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css?v=1">
+
+    <!-- Script -->
+    <script src="./comportement/main.js?v=1" defer></script>
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Aller au contenu</a>
+
+    <header class="site-header" role="banner">
+        <div class="container header-inner">
+            <a class="brand" href="#hero" aria-label="Aller à la page d'accueil">VIEVARD • Quentin</a>
+
+            <nav class="primary-nav" role="navigation" aria-label="Navigation principale">
+                <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-list">
+                    <span></span><span></span><span></span>
+                </button>
+
+                <ul id="nav-list" class="nav-list">
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#experience">Parcours</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+                <button id="theme-toggle" class="theme-toggle" aria-label="Basculer thème">🌓</button>
+                <div class="lang-switch">
+                    <a href="index.html" class="lang-link active" data-lang="fr" aria-label="Français">
+                        <img src="./images/Drapeau_France.webp" alt="Français" loading="lazy">
+                    </a>
+                    <a href="index-en.html" class="lang-link" data-lang="en" aria-label="English">
+                        <img src="./images/Drapeau_Angleterre.webp" alt="English" loading="lazy">
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main" tabindex="-1">
+        <section id="hero" class="hero">
+            <div class="container hero-inner">
+                <img src="./images/IMG20250827121043.jpg" alt="Photo de Quentin VIEVARD" class="hero-photo"
+                    loading="lazy">
+                <div class="hero-copy">
+                    <h1>Quentin VIEVARD</h1>
+                    <p class="lead">Développeur Web & Logiciel — Java · PHP · Symfony</p>
+                    <p class="muted">Jeune diplômé en Licence Informatique, je conçois des applications performantes et
+                        centrées utilisateur.</p>
+                    <div class="hero-actions">
+                        <a class="btn primary" href="#projects">Voir mes projets</a>
+                        <a class="btn outline" href="mailto:quentin.vvd@gmail.com">📧 Me contacter</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="panel container">
+            <div class="panel-grid">
+                <div>
+                    <h2>À propos</h2>
+                    <p>
+                        Passionné par le <strong>développement web</strong> et le <strong>développement
+                            logiciel</strong>. J'apprécie concevoir des solutions robustes, lisibles et maintenables.
+                        Mes compétences principales : <strong>Java, PHP, POO, bases de données</strong> et une appétence
+                        forte pour l'algorithmique et l'architecture applicative.
+                    </p>
+                    <div class="pill-list">
+                        <span>Travail en équipe</span>
+                        <span>Curiosité technique</span>
+                        <span>Agile / Méthodes itératives</span>
+                    </div>
+                </div>
+
+                <aside class="aside-box" aria-labelledby="looking-for">
+                    <h3 id="looking-for">🎯 Ce que je recherche</h3>
+                    <p>Intégrer une équipe motivée pour monter en compétence sur des projets concrets, idéalement
+                        backend Symfony ou applications Java.</p>
+
+                    <div class="interests-compact">
+                        <strong>Centres d'intérêt</strong>
+                        <ul>
+                            <li>HYROX & Crossfit</li>
+                            <li>Randonnée</li>
+                            <li>Moto</li>
+                            <li>Course à pied</li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section id="experience" class="panel container">
+            <h2>Parcours & Compétences</h2>
+
+            <div class="cards-grid">
+                <article class="card">
+                    <h4>Formation</h4>
+                    <p><strong>Licence Informatique</strong> — Université de La Rochelle (2022-2025)</p>
+                    <p>Parcours : développement web et traitement du signal. Projets en équipe, méthodologie Agile.</p>
+                    <p class="small muted">Baccalauréat — Lycée Marcel Dassault (2021) | Mention Bien</p>
+                    <div class="bac-details">
+                        <span class="small muted">Spécialités : Mathématiques, Physique-Chimie</span><br>
+                        <span class="small muted">Option : Sports</span>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <h4>Compétences techniques</h4>
+                    <ul class="skills-grid">
+                        <li>Java</li>
+                        <li>PHP / Symfony</li>
+                        <li>Vue.js (expérience)</li>
+                        <li>HTML & CSS modernes</li>
+                        <li>SQL / MySQL</li>
+                        <li>MATLAB (traitement du signal)</li>
+                        <li>Git / GitHub</li>
+                        <li>Linux & scripts</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section id="projects" class="panel container">
+            <h2>Projets sélectionnés</h2>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <img src="./images/AnnaleEtudiante.png" alt="Annale Etudiante" loading="lazy">
+                    <div class="project-body">
+                        <h3>Annale Etudiante — Plateforme (NESSA)</h3>
+                        <p class="muted small">Symfony · PHP · Vue.js · Drag & Drop</p>
+                        <p>Plateforme de publication/consultation d’annales avec interface Drag & Drop et gestion des
+                            droits pour contributeurs.</p>
+                        <div class="proj-actions">
+                            <a class="btn outline" href="https://github.com/VIEVARD-Quentin/site-annale-etudiante"
+                                target="_blank" rel="noopener">Voir sur GitHub →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="./images/" alt="E-commerce Moto (aperçu)" loading="lazy">
+                    <div class="project-body">
+                        <h3>Site E-commerce Moto (académique)</h3>
+                        <p class="muted small">Symfony · Vue.js · Gestion panier</p>
+                        <p>Prototype de boutique avec gestion dynamique du panier, filtres et organisation par
+                            catégories.</p>
+                        <div class="proj-actions">
+                            <a class="btn outline" href="#" target="_blank" rel="noopener">Voir sur GitHub →</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="cta container">
+            <div class="cta-inner" id="contact">
+                <h2>Intéressé par mon profil ?</h2>
+                <p class="muted">Je suis disponible et ouvert aux opportunités — contact rapide par mail ou LinkedIn.
+                </p>
+                <div>
+                    <a class="btn primary" href="mailto:quentin.vvd@gmail.com">📧 Me contacter</a>
+                    <a class="btn outline" href="./docs/CV_VIEVARD_Quentin.pdf" download>📄 Télécharger mon CV</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="container footer-inner">
+            <div>
+                <p><strong>Contact</strong></p>
+                <p>📧 <a href="mailto:quentin.vvd@gmail.com">quentin.vvd@gmail.com</a></p>
+                <p>💼 <a href="https://www.linkedin.com/in/quentin-vievard-9172b2332" target="_blank"
+                        rel="noopener">LinkedIn</a> · 💻
+                    <a href="https://github.com/VIEVARD-Quentin" target="_blank" rel="noopener">GitHub</a>
+                </p>
+            </div>
+
+            <div class="footer-right">
+                <p>&copy; 2025 VIEVARD Quentin</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scroll-top" class="scroll-top" aria-label="Retour en haut">↑</button>
+</body>
+
+</html>
